@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EC73E4F4-831C-4878-B1EB-F3F952FC52E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MercenaryContractBoard.Core", "src\MercenaryContractBoard.Core\MercenaryContractBoard.Core.csproj", "{2150EDEA-4247-47BF-AFA6-C51413626DAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MercenaryContractBoard.Module", "src\MercenaryContractBoard.Module\MercenaryContractBoard.Module.csproj", "{30D050B2-6011-4789-81A3-A1BDC2A51228}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DD67BF8E-C236-4247-B537-FC225D0EACAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MercenaryContractBoard.Core.Tests", "tests\MercenaryContractBoard.Core.Tests\MercenaryContractBoard.Core.Tests.csproj", "{4A4AB745-BE98-426A-80CC-C2A28B3D07CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2150EDEA-4247-47BF-AFA6-C51413626DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2150EDEA-4247-47BF-AFA6-C51413626DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2150EDEA-4247-47BF-AFA6-C51413626DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2150EDEA-4247-47BF-AFA6-C51413626DAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30D050B2-6011-4789-81A3-A1BDC2A51228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D050B2-6011-4789-81A3-A1BDC2A51228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D050B2-6011-4789-81A3-A1BDC2A51228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D050B2-6011-4789-81A3-A1BDC2A51228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A4AB745-BE98-426A-80CC-C2A28B3D07CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A4AB745-BE98-426A-80CC-C2A28B3D07CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A4AB745-BE98-426A-80CC-C2A28B3D07CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A4AB745-BE98-426A-80CC-C2A28B3D07CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2150EDEA-4247-47BF-AFA6-C51413626DAD} = {EC73E4F4-831C-4878-B1EB-F3F952FC52E9}
+		{30D050B2-6011-4789-81A3-A1BDC2A51228} = {EC73E4F4-831C-4878-B1EB-F3F952FC52E9}
+		{4A4AB745-BE98-426A-80CC-C2A28B3D07CB} = {DD67BF8E-C236-4247-B537-FC225D0EACAA}
+	EndGlobalSection
+EndGlobal

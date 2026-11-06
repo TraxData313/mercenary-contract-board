@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Pure logic: no game references. Vanilla's mercenary offer conditions (in vanilla's order), the board's text and
+       the settings menu live here, unit-tested in tests\MercenaryContractBoard.Core.Tests; the module feeds it numbers
+       read from the game. -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>MercenaryContractBoard.Core</RootNamespace>
+    <AssemblyName>MercenaryContractBoard.Core</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="MercenaryContractBoard.Core.Tests" />
+  </ItemGroup>
+
+</Project>

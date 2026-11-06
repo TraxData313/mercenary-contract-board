@@ -1,0 +1,14 @@
+<Project>
+  <PropertyGroup>
+    <LangVersion>10.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <!-- Path to the Bannerlord installation; override in Directory.Build.props.user (git-ignored) if yours differs -->
+    <GameFolder>D:\SteamLibrary\steamapps\common\Mount &amp; Blade II Bannerlord</GameFolder>
+    <!-- Mod Configuration Menu (MCM v5, module Bannerlord.MBOptionScreen): referenced by the module's settings page,
+         never shipped. Override in Directory.Build.props.user; without MCMv5.dll here the module csproj falls back to
+         $(GameFolder)\Modules\Bannerlord.MBOptionScreen. -->
+    <McmBinFolder>$(GameFolder)\Modules\Bannerlord.MBOptionScreen\bin\Win64_Shipping_Client</McmBinFolder>
+  </PropertyGroup>
+  <Import Project="Directory.Build.props.user" Condition="Exists('Directory.Build.props.user')" />
+</Project>

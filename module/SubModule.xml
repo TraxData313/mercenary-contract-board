@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/BUTR/Bannerlord.XmlSchemas/master/SubModule.xsd">
+  <!-- The RELEASE identity. tools\deploy.ps1 rewrites Id and Name for the local dev install
+       (Id MercenaryContractBoard.Dev, "Mercenary Contract Board (dev)"). Built against Bannerlord 1.4.8 (+ War Sails). -->
+  <Id value="MercenaryContractBoard" />
+  <Name value="Mercenary Contract Board" />
+  <Version value="v1.0.0" />
+  <DefaultModule value="false" />
+  <ModuleCategory value="Singleplayer" />
+  <ModuleType value="Community" />
+  <DependedModules>
+    <DependedModule Id="Native" />
+    <DependedModule Id="SandBoxCore" />
+    <DependedModule Id="Sandbox" />
+  </DependedModules>
+  <DependedModuleMetadatas>
+    <DependedModuleMetadata id="Native" order="LoadBeforeThis" />
+    <DependedModuleMetadata id="SandBoxCore" order="LoadBeforeThis" />
+    <DependedModuleMetadata id="Sandbox" order="LoadBeforeThis" />
+    <!-- Mod Configuration Menu: optional. Loaded before us so its settings page is ready at the main menu; without it
+         the mod runs on the default settings. -->
+    <DependedModuleMetadata id="Bannerlord.MBOptionScreen" order="LoadBeforeThis" optional="true" />
+    <!-- Optional, load-before only: any model War Sails registers (e.g. a MinorFactionsModel) is in place before the
+         board asks for an award. We register no models ourselves, so either order works. -->
+    <DependedModuleMetadata id="NavalDLC" order="LoadBeforeThis" optional="true" />
+  </DependedModuleMetadatas>
+  <SubModules>
+    <SubModule>
+      <Name value="Mercenary Contract Board" />
+      <DLLName value="MercenaryContractBoard.dll" />
+      <SubModuleClassType value="MercenaryContractBoard.SubModule" />
+      <Tags />
+    </SubModule>
+  </SubModules>
+</Module>
