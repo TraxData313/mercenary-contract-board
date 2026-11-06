@@ -1,0 +1,19 @@
+<Tasks>
+    <CreateItem/>
+    <UpdateItem>
+        <!-- ALREADY RUN - NEVER RUN AGAIN (created item 3834681925 on 2026-11-06). First Steam Workshop upload: it CREATES the item. Run it ONCE (tools\WORKSHOP-UPLOAD.md), then put the
+             new item ID into WorkshopUpdate.xml and mark this file "ALREADY RUN - NEVER RUN AGAIN". <Tasks> must be the file's
+             first node; comments only inside UpdateItem. Title comes from SubModule.xml <Name>.
+             The short description here is replaced by tools\STEAM-DESCRIPTION.bbcode on the first update. -->
+        <ModuleFolder Value="C:\Users\Asus ROG\Documents\BannerlordMods\mercenary-contract-board\dist\MercenaryContractBoard"/>
+        <ItemDescription Value="Every town has a board with the mercenary contracts on offer: which kingdoms would hire you, what they pay per influence point and who they are fighting, on one page. Only a view of vanilla's own offers: same conditions, same pay, vanilla's own actions to sign or switch. No Harmony needed; MCM optional."/>
+        <Tags>
+            <Tag Value="Utility" />
+            <Tag Value="Native" />
+            <Tag Value="Singleplayer" />
+            <Tag Value="v1.4.8" />
+        </Tags>
+        <Image Value="C:\Users\Asus ROG\Documents\BannerlordMods\mercenary-contract-board\docs\thumbnail.jpg"/>
+        <Visibility Value="Public"/>
+    </UpdateItem>
+</Tasks>
