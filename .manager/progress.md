@@ -31,4 +31,4 @@ Sister mod of `troop-training-requirement` - copy its conventions, tooling and c
   the same via a lord in a tavern).
 - 2026-11-06 step 6: Toni's 5 screenshots (docs/screenshots 01-05), thumbnail (tools/make_thumbnail.py). Published v1.0.0:
   repo made public, GitHub release v1.0.0, Steam item 3834681925 created + full description sent ("Uploading done!";
-  hidden pending moderation by the account's Steam block, as expected). Nexus: by hand, Toni.
+  hidden pending moderation by the account's Steam block, as expected). Nexus: mods/14539, published 2026-11-06 (6 images, file 1.0.0).

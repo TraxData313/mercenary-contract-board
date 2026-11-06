@@ -2,7 +2,7 @@
 
 Published 2026-11-06: Steam item **[3834681925](https://steamcommunity.com/sharedfiles/filedetails/?id=3834681925)** (hidden at once by the
 Steam block, like the other mods since 2026-10-10 - see bannerlord-mods `MODS-STATUS.md`; full description sent
-with the first update the same day), GitHub repo public with release v1.0.0. Nexus: pending (by hand, Toni).
+with the first update the same day), GitHub repo public with release v1.0.0. Nexus: [mods/14539](https://www.nexusmods.com/mountandblade2bannerlord/mods/14539), published the same day.
 
 Same uploader and quirks as the sister mods (`..\troop-training-requirement\tools\WORKSHOP-UPLOAD.md`): Bannerlord's own
 `TaleWorlds.MountAndBlade.SteamWorkshop.exe`, riding the logged-in Steam client (start Steam first).

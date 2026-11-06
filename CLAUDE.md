@@ -7,7 +7,7 @@ vanilla's offers: same conditions, same award numbers, same actions as the lord 
 
 Sister mod of `..\troop-training-requirement` - same layout, tooling, code style and rules; when in doubt, do what it
 does. Status: `.manager\progress.md` (committed). Built, 40 tests, tested in game by Toni (screenshots in `docs/screenshots`). v1.0.0 published 2026-11-06: GitHub
-release, Steam item 3834681925 (hidden by the Steam block); Nexus pending. Player docs:
+release, Steam item 3834681925 (hidden by the Steam block); Nexus mods/14539. Player docs:
 `README.md`.
 
 ## Vanilla, as found in the 1.4.8 decompile (`%TEMP%\trax_decomp\full_TaleWorlds.CampaignSystem`)
