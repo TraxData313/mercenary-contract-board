@@ -9,7 +9,8 @@ give you in conversation, and signing or switching uses vanilla's own actions. N
 
 ## Install
 
-1. Download the zip (not published yet).
+1. Subscribe on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3834681925),
+   or download the zip from the [GitHub Releases page](https://github.com/TraxData313/mercenary-contract-board/releases/latest).
 2. Extract it into `Mount & Blade II Bannerlord\Modules\`.
 3. Enable it in the launcher (below MCM if you use it). [Mod Configuration Menu](https://www.nexusmods.com/mountandblade2bannerlord/mods/612)
    is optional. No Harmony needed.

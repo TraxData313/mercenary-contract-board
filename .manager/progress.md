@@ -21,7 +21,7 @@ Sister mod of `troop-training-requirement` - copy its conventions, tooling and c
 3. [x] Core: ContractRules, BoardText, settings + tests (40).
 4. [x] Module: Board (game reads, Sign), ContractBoardBehavior (town menu, pop-ups), McmSettings, SubModule.
 5. [x] Docs: README, CLAUDE.md, store text drafts in tools\. Private GitHub repo, deploy.
-6. [ ] Toni tests in game; screenshots; thumbnail; publish when he says so.
+6. [x] Toni tests in game; screenshots; thumbnail; publish when he says so.
 
 ## Log
 - 2026-11-06 steps 1-5: built 0/0, 40 tests pass, AssemblyGuard OK (MCMv5), deployed to Modules\MercenaryContractBoard.Dev.
@@ -29,3 +29,6 @@ Sister mod of `troop-training-requirement` - copy its conventions, tooling and c
   Open: the courier offer uses a different vanilla award (neededAmountForClanToJoinCalculation: true) - the board shows
   the conversation's; switching while in a town of the kingdom you leave leaves you in an enemy town (vanilla allows
   the same via a lord in a tavern).
+- 2026-11-06 step 6: Toni's 5 screenshots (docs/screenshots 01-05), thumbnail (tools/make_thumbnail.py). Published v1.0.0:
+  repo made public, GitHub release v1.0.0, Steam item 3834681925 created + full description sent ("Uploading done!";
+  hidden pending moderation by the account's Steam block, as expected). Nexus: by hand, Toni.
