@@ -14,6 +14,14 @@ give you in conversation, and signing or switching uses vanilla's own actions. N
 3. Enable it in the launcher (below MCM if you use it). [Mod Configuration Menu](https://www.nexusmods.com/mountandblade2bannerlord/mods/612)
    is optional. No Harmony needed.
 
+## Screenshots
+
+| | |
+|---|---|
+| ![The board](docs/screenshots/01-board.jpg) **1.** The board in a town menu: 9 contracts on offer, each kingdom with its banner and pay. | ![Sign a contract](docs/screenshots/02-sign-confirmation.jpg) **2.** Signing asks once more: Battania, 180 denars per influence point, and who you will be at war with. |
+| ![Under contract](docs/screenshots/03-board-under-contract.jpg) **3.** Under contract: YOUR CONTRACT at the top (pay, next review, influence owed, wars), the other offers below. | ![Switch contract](docs/screenshots/04-switch-confirmation.jpg) **4.** Switching from Vlandia to Sturgia: the influence still owed is lost, as in vanilla. |
+| ![Signed](docs/screenshots/05-signed-messages.jpg) **5.** Signed: vanilla's messages, then "You are now a mercenary of Sturgia: 190 denars per influence point". | |
+
 ## Using the board
 
 In any town menu, pick **Mercenary Contract Board**. A pop-up lists every kingdom with its banner:
